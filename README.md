@@ -233,8 +233,10 @@ If you want the router to work in older version of Internet Explorer that don't 
 
 ## Contributing
 
-To run the tests, ensure that the router is checked out to a folder called `router`, and then simply run:
+To run the tests, ensure that the router is checked out to a folder called `router`, then run the tests:
 
 ``` sh
+$ git clone git://github.com/tmeasday/meteor-router.git router
+$ cd router/
 $ mrt test-packages router
 ```
